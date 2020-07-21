@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./booptraps/css/bootstrap.min.css">
+	<title>BNGW</title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-6">
+					<div class="logo">
+						<div>
+							<a href="index.html"><img src="./images/logo.png" alt="logo"></a>
+						</div>
+						
+					</div>
+				</div>
+				<div class="col-6">
+					<nav class="navbar navbar-expand-sm justify-content-end">
+						<ul class="navbar-nav">
+							<li class="navbar-item">
+								<a class="nav-link"  href="#">Home</a>
+							</li>
+							<li class="navbar-item">
+									<a class="nav-link"  href="#">Contact</a>
+							</li>
+							<li class="navbar-item">
+								<a class="nav-link text-primary"  href="#">About</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="container" style="background-color: #f0f0f0;">
+			<div class="container-content">
+				<div class="row">
+					<div class="col-6">
+						<div class="infomation">
+							<div class="title">Contact Info</div>
+							<div class="infomation-content">
+								<p>To give beginning divide,cattle.Give moving won't Light hath sub due. Life days creature upon first heaven gathering dry</p>
+								<p>
+									<b>Address:</b> <span>10111 Santa Monica Boulevard, LA</span>
+								</p>
+								<p>
+									<b>Phone:</b> <span>+44 987 065 908</span>
+								</p>
+								<p>
+									<b>Email:</b> <span>info@Example.com</span>
+								</p>
+								<p>
+									<b>Fax:</b> <span>+44 987 065 909</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-6">
+						<form action="#" id="form">
+							<div class="name-email input-box">
+								<input type="text" name="text" placeholder="Your Name" class="name input-text ">
+								<input type="email" name="email" placeholder="Your Email" class="email input-text ">
+							</div>
+							<div class="input-title input-box">
+								<input type="text" name="title"placeholder="Your Title" class="input-text input-title">
+							</div>
+							<div class="input-comment input-box">
+								<textarea type="text" name="comment" class="comment input-text" placeholder="Your Comment" cols="5" rows="3"></textarea>
+								
+							</div>
+							<button type="submit" name="submit" class="btn btn-primary">Sen Message</button>
+						</form>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<div class="map">
+							<img src="./images/map.png" alt="map" >
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	
+	</main>
+	
+</body>
+<script src="./js/jquery-3.5.1.js"></script>
+<!-- <script>
+	var email = $(".email");
+    var firl_name = $(".name");
+    var title = $(".input-title");
+	var comment = $(".comment");
+    var form = $("#form");
+    var box = $(".input-box");
+
+    form.submit(function (event) {
+        event.preventDefault();
+        checkInput();
+    })
+    function checkInput() {
+        const emailValue = email.val().trim();
+        const nameValue = firl_name.val().trim();
+        const formValue = title.val().trim();
+		const commentValue = comment.val().trim();
+
+
+        if (emailValue === "") {
+            setErrorFor(email,"yêu cầu nhập email");
+            console.log(emailValue)
+        } else if (!isEmail(emailValue)) {
+            setErrorFor(email, 'không phải là email');
+        }else{
+            setSuccessFor(email)
+        }
+        if (nameValue === "") {
+            setErrorFor(firl_name,"yêu cầu nhập first name");
+        }else{
+            setSuccessFor(firl_name)
+        }
+        if (formValue === "") {
+            setErrorFor(text,"yều cầu nhập văn bản");
+        }else{
+            setSuccessFor(text)
+        }
+	}
+		function setErrorFor(input,massage) {
+		const boxInput = input.parent();
+		const span = boxInput.children("span");
+		span.text(massage);
+		boxInput.addClass("error");
+		boxInput.removeClass("success");
+		}
+		function setSuccessFor(input) {
+		debugger;
+		const boxInput = input.parent();
+		console.log(boxInput);
+		const span = boxInput.children("span");
+		console.log(span);
+		boxInput.addClass("success");
+		boxInput.removeClass("error");
+		span.text("");
+
+		}
+		function isEmail(email) {
+		return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+		}
+	
+</script> -->
+</html>

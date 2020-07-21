@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    margin-bottom: 3.5rem;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.logo div{
+    width: 30px;
+    height: 30px;
+}
+.logo a img{
+    width: 100%;
+}
+/* .navbar{
+    display: flex;
+    justify-content: end;
+} */
+.navbar-item{
+    padding: 0 5px;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+    
+}
+.container-content{
+    padding: 2.5rem;
+}
+.title{
+    font-weight: 700;
+    font-size: 30px;
+}
+.infomation-content p:first-child {
+    margin-top: 1rem;
+}
+.name-email{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    width: 100%;
+  
+}
+.email{
+    width: 100%; 
+    margin-left: 15px;
+}
+.input-title input{
+    width: 100%;
+}
+.comment{
+    width: 100%;
+}
+.input-text{
+    padding: 5px 0 5px 5px;
+}
+.input-text:focus{
+    outline: none;
+   
+}
+.input-box{
+    margin: 2rem 0;
+}
+.btn{
+    display: block;
+    padding: 10px 20px;
+    background-color: blue;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.map img{
+    width: 100%;
+}
